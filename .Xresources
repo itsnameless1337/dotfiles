@@ -1,0 +1,27 @@
+!---------------------------------------
+! import ~/.xrdb color, fonts and stuff
+!---------------------------------------
+
+#include ".xrdb/color/tortita"
+#include ".xrdb/font/tewi"
+#include ".xrdb/dmenu/tortita"
+
+!---------------------------------------
+! now some urxvt and xft config
+!---------------------------------------
+URxvt.geometry:			72x18
+Xft.antialias: 1
+Xft.autohint: 0
+Xft.hintstyle: hintslight
+Xft.hinting: 1
+Xft.rgba: rgb
+URxvt*letterSpace:      0
+URxvt*lineSpace:        0
+URxvt*internalBorder:       24
+URxvt*externalBorder:       0
+URxvt*depth:        32
+URxvt*termName:     rxvt-256color
+URxvt*iso14755:     false
+Xft.lcdfilter: lcddefault
+URxvt*scrollBar:        false 
+URxvt*scrollBar_right:        false 
