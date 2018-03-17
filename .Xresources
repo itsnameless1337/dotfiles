@@ -9,7 +9,7 @@
 !---------------------------------------
 ! now some urxvt and xft config
 !---------------------------------------
-URxvt.geometry:			72x18
+URxvt.geometry:		    104x28
 Xft.antialias: 1
 Xft.autohint: 0
 Xft.hintstyle: hintslight
